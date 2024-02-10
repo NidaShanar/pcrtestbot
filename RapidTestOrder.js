@@ -10,9 +10,9 @@ class RapidTestOrder {
       },
       SIZE: () =>{
         let aReturn = [];
-        this.stateCur = this.OrderState.RESERVING;
+        this.stateCur = this.OrderState.SIZE;
         aReturn.push("What toppings would you like?"); 
-        aReturn.push("We have Canadian and Vegitarian");
+        aReturn.push("We have Canadian and Vegetarian");
         return aReturn;
       },
       RESERVING: (sInput) => {
